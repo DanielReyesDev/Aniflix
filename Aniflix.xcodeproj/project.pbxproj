@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3313239E1FAF87F800CE72BC /* DetailBarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313239D1FAF87F800CE72BC /* DetailBarChartCell.swift */; };
+		33AF30A51FAE2AA300EF2235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30A41FAE2AA300EF2235 /* AppDelegate.swift */; };
+		33AF30AC1FAE2AA300EF2235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AF30AB1FAE2AA300EF2235 /* Assets.xcassets */; };
+		33AF30AF1FAE2AA300EF2235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AF30AD1FAE2AA300EF2235 /* LaunchScreen.storyboard */; };
+		33AF30BB1FAE2DB200EF2235 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30BA1FAE2DB200EF2235 /* HomeController.swift */; };
+		33AF30BF1FAE32D700EF2235 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30BE1FAE32D700EF2235 /* ApiService.swift */; };
+		33AF30C11FAE32E500EF2235 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30C01FAE32E500EF2235 /* Urls.swift */; };
+		33AF30C31FAE331500EF2235 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30C21FAE331500EF2235 /* Anime.swift */; };
+		33AF30C51FAE334700EF2235 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF30C41FAE334700EF2235 /* Extensions.swift */; };
+		33CD142F1FAE4C06008A12B6 /* AnimeSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD142E1FAE4C06008A12B6 /* AnimeSliderCell.swift */; };
+		33CD14311FAE4C1B008A12B6 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14301FAE4C1B008A12B6 /* AnimeCell.swift */; };
+		33CD14341FAE4C51008A12B6 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14331FAE4C51008A12B6 /* CustomImageView.swift */; };
+		33CD14361FAE5F28008A12B6 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14351FAE5F28008A12B6 /* DetailController.swift */; };
+		33CD14381FAE5F4C008A12B6 /* DetailHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14371FAE5F4C008A12B6 /* DetailHeaderCell.swift */; };
+		33CD143A1FAE5F9C008A12B6 /* DetailPairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14391FAE5F9C008A12B6 /* DetailPairCell.swift */; };
+		33CD143C1FAE7017008A12B6 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD143B1FAE7017008A12B6 /* Character.swift */; };
+		33CD143E1FAE7E81008A12B6 /* DetailDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD143D1FAE7E81008A12B6 /* DetailDescriptionCell.swift */; };
+		33CD14401FAE81EC008A12B6 /* DetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD143F1FAE81EC008A12B6 /* DetailImageCell.swift */; };
+		33CD14421FAEBFD3008A12B6 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CD14411FAEBFD3008A12B6 /* SearchResultsController.swift */; };
+		3BE0E6A07EC8C5B15F508185 /* Pods_Aniflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EBFD4B836F221FE4EEB920 /* Pods_Aniflix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3313239D1FAF87F800CE72BC /* DetailBarChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBarChartCell.swift; sourceTree = "<group>"; };
+		33AF30A11FAE2AA300EF2235 /* Aniflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aniflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AF30A41FAE2AA300EF2235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33AF30AB1FAE2AA300EF2235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AF30AE1FAE2AA300EF2235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33AF30B01FAE2AA300EF2235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AF30BA1FAE2DB200EF2235 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		33AF30BD1FAE2F0C00EF2235 /* Aniflix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aniflix-Bridging-Header.h"; sourceTree = "<group>"; };
+		33AF30BE1FAE32D700EF2235 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		33AF30C01FAE32E500EF2235 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		33AF30C21FAE331500EF2235 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		33AF30C41FAE334700EF2235 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		33CD142E1FAE4C06008A12B6 /* AnimeSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSliderCell.swift; sourceTree = "<group>"; };
+		33CD14301FAE4C1B008A12B6 /* AnimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
+		33CD14331FAE4C51008A12B6 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		33CD14351FAE5F28008A12B6 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		33CD14371FAE5F4C008A12B6 /* DetailHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderCell.swift; sourceTree = "<group>"; };
+		33CD14391FAE5F9C008A12B6 /* DetailPairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPairCell.swift; sourceTree = "<group>"; };
+		33CD143B1FAE7017008A12B6 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		33CD143D1FAE7E81008A12B6 /* DetailDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDescriptionCell.swift; sourceTree = "<group>"; };
+		33CD143F1FAE81EC008A12B6 /* DetailImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageCell.swift; sourceTree = "<group>"; };
+		33CD14411FAEBFD3008A12B6 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		C1EBFD4B836F221FE4EEB920 /* Pods_Aniflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aniflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6C295C4FF0379E92166002 /* Pods-Aniflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aniflix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aniflix/Pods-Aniflix.debug.xcconfig"; sourceTree = "<group>"; };
+		F29E1942BF08A28B4551890B /* Pods-Aniflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aniflix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aniflix/Pods-Aniflix.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AF309E1FAE2AA300EF2235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE0E6A07EC8C5B15F508185 /* Pods_Aniflix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298593E658AEF0B707ABE667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C295C4FF0379E92166002 /* Pods-Aniflix.debug.xcconfig */,
+				F29E1942BF08A28B4551890B /* Pods-Aniflix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33AF30981FAE2AA300EF2235 = {
+			isa = PBXGroup;
+			children = (
+				33AF30A31FAE2AA300EF2235 /* Aniflix */,
+				33AF30A21FAE2AA300EF2235 /* Products */,
+				298593E658AEF0B707ABE667 /* Pods */,
+				F8CC6C5A13491755F8734959 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33AF30A21FAE2AA300EF2235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AF30A11FAE2AA300EF2235 /* Aniflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AF30A31FAE2AA300EF2235 /* Aniflix */ = {
+			isa = PBXGroup;
+			children = (
+				33AF30B01FAE2AA300EF2235 /* Info.plist */,
+				33AF30A41FAE2AA300EF2235 /* AppDelegate.swift */,
+				33CD14321FAE4C43008A12B6 /* Helpers */,
+				33AF30B71FAE2D9300EF2235 /* Model */,
+				33AF30B81FAE2D9700EF2235 /* View */,
+				33AF30B91FAE2D9B00EF2235 /* Controller */,
+				33AF30B61FAE2D8500EF2235 /* Utils */,
+			);
+			path = Aniflix;
+			sourceTree = "<group>";
+		};
+		33AF30B61FAE2D8500EF2235 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33AF30AB1FAE2AA300EF2235 /* Assets.xcassets */,
+				33AF30AD1FAE2AA300EF2235 /* LaunchScreen.storyboard */,
+				33AF30BD1FAE2F0C00EF2235 /* Aniflix-Bridging-Header.h */,
+				33AF30C01FAE32E500EF2235 /* Urls.swift */,
+				33AF30BE1FAE32D700EF2235 /* ApiService.swift */,
+				33AF30C41FAE334700EF2235 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33AF30B71FAE2D9300EF2235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33AF30C21FAE331500EF2235 /* Anime.swift */,
+				33CD143B1FAE7017008A12B6 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AF30B81FAE2D9700EF2235 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33CD142E1FAE4C06008A12B6 /* AnimeSliderCell.swift */,
+				33CD14301FAE4C1B008A12B6 /* AnimeCell.swift */,
+				33CD14371FAE5F4C008A12B6 /* DetailHeaderCell.swift */,
+				33CD143D1FAE7E81008A12B6 /* DetailDescriptionCell.swift */,
+				33CD14391FAE5F9C008A12B6 /* DetailPairCell.swift */,
+				33CD143F1FAE81EC008A12B6 /* DetailImageCell.swift */,
+				3313239D1FAF87F800CE72BC /* DetailBarChartCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AF30B91FAE2D9B00EF2235 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AF30BA1FAE2DB200EF2235 /* HomeController.swift */,
+				33CD14411FAEBFD3008A12B6 /* SearchResultsController.swift */,
+				33CD14351FAE5F28008A12B6 /* DetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33CD14321FAE4C43008A12B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				33CD14331FAE4C51008A12B6 /* CustomImageView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F8CC6C5A13491755F8734959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1EBFD4B836F221FE4EEB920 /* Pods_Aniflix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AF30A01FAE2AA300EF2235 /* Aniflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AF30B31FAE2AA300EF2235 /* Build configuration list for PBXNativeTarget "Aniflix" */;
+			buildPhases = (
+				40726B39ECE0A6A575145770 /* [CP] Check Pods Manifest.lock */,
+				33AF309D1FAE2AA300EF2235 /* Sources */,
+				33AF309E1FAE2AA300EF2235 /* Frameworks */,
+				33AF309F1FAE2AA300EF2235 /* Resources */,
+				5A32A5B09B3F7410EE865213 /* [CP] Embed Pods Frameworks */,
+				DDEF2AC93EA2C03F1E0C8E9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aniflix;
+			productName = Aniflix;
+			productReference = 33AF30A11FAE2AA300EF2235 /* Aniflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AF30991FAE2AA300EF2235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Daniel Reyes Sánchez";
+				TargetAttributes = {
+					33AF30A01FAE2AA300EF2235 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33AF309C1FAE2AA300EF2235 /* Build configuration list for PBXProject "Aniflix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AF30981FAE2AA300EF2235;
+			productRefGroup = 33AF30A21FAE2AA300EF2235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AF30A01FAE2AA300EF2235 /* Aniflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AF309F1FAE2AA300EF2235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AF30AF1FAE2AA300EF2235 /* LaunchScreen.storyboard in Resources */,
+				33AF30AC1FAE2AA300EF2235 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40726B39ECE0A6A575145770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aniflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A32A5B09B3F7410EE865213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aniflix/Pods-Aniflix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aniflix/Pods-Aniflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEF2AC93EA2C03F1E0C8E9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aniflix/Pods-Aniflix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AF309D1FAE2AA300EF2235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CD143C1FAE7017008A12B6 /* Character.swift in Sources */,
+				33AF30BB1FAE2DB200EF2235 /* HomeController.swift in Sources */,
+				33CD14341FAE4C51008A12B6 /* CustomImageView.swift in Sources */,
+				33CD143A1FAE5F9C008A12B6 /* DetailPairCell.swift in Sources */,
+				33CD14421FAEBFD3008A12B6 /* SearchResultsController.swift in Sources */,
+				33CD14401FAE81EC008A12B6 /* DetailImageCell.swift in Sources */,
+				33AF30C51FAE334700EF2235 /* Extensions.swift in Sources */,
+				33AF30C31FAE331500EF2235 /* Anime.swift in Sources */,
+				33CD14381FAE5F4C008A12B6 /* DetailHeaderCell.swift in Sources */,
+				33AF30A51FAE2AA300EF2235 /* AppDelegate.swift in Sources */,
+				33CD14311FAE4C1B008A12B6 /* AnimeCell.swift in Sources */,
+				33AF30BF1FAE32D700EF2235 /* ApiService.swift in Sources */,
+				33CD142F1FAE4C06008A12B6 /* AnimeSliderCell.swift in Sources */,
+				3313239E1FAF87F800CE72BC /* DetailBarChartCell.swift in Sources */,
+				33CD143E1FAE7E81008A12B6 /* DetailDescriptionCell.swift in Sources */,
+				33CD14361FAE5F28008A12B6 /* DetailController.swift in Sources */,
+				33AF30C11FAE32E500EF2235 /* Urls.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33AF30AD1FAE2AA300EF2235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AF30AE1FAE2AA300EF2235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AF30B11FAE2AA300EF2235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33AF30B21FAE2AA300EF2235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AF30B41FAE2AA300EF2235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6C295C4FF0379E92166002 /* Pods-Aniflix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM5DS4HC25;
+				INFOPLIST_FILE = Aniflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skylabs.Aniflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Utils/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33AF30B51FAE2AA300EF2235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29E1942BF08A28B4551890B /* Pods-Aniflix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM5DS4HC25;
+				INFOPLIST_FILE = Aniflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skylabs.Aniflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Utils/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AF309C1FAE2AA300EF2235 /* Build configuration list for PBXProject "Aniflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AF30B11FAE2AA300EF2235 /* Debug */,
+				33AF30B21FAE2AA300EF2235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AF30B31FAE2AA300EF2235 /* Build configuration list for PBXNativeTarget "Aniflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AF30B41FAE2AA300EF2235 /* Debug */,
+				33AF30B51FAE2AA300EF2235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AF30991FAE2AA300EF2235 /* Project object */;
+}
